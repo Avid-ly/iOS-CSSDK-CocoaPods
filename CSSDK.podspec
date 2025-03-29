@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CSSDK'
-  s.version          = '2.1.1.6'
-  s.summary          = 'CSSDK 2.1.1.6'
+  s.version          = '2.1.1.7'
+  s.summary          = 'CSSDK 2.1.1.7'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-CServiceSDK 2.1.1.6
+CServiceSDK 2.1.1.7
                        DESC
 
   s.homepage         = 'https://guojunliu.github.io'
@@ -18,7 +18,7 @@ CServiceSDK 2.1.1.6
   s.author           = { "steve" => "909476821@qq.com" }
   s.source           = { :git => 'https://github.com/Avid-ly/iOS-CSSDK-CocoaPods.git', :tag => s.version }
 
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
 
   s.library = 'sqlite3', 'z', 'c++', 'xml2', 'resolv'
 
